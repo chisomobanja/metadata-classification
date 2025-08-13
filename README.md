@@ -43,20 +43,20 @@ To achieve the above business objectives, our project will focus on developing a
 - Enable metadata quality insights by aggregating classification results to identify common gaps across journals, which will guide targeted improvements and policy enforcement.
 - Set measurable model performance targets — e.g., at least 85% classification accuracy for predicting completeness categories on test data.
 
-## 1.4 Initial Project Success Criteria
+### 1.4 Initial Project Success Criteria
 We’ll know our project is successful when we can clearly see improvements in both the quality of metadata and the ease of managing it. Specifically:
 
-1. ## Accurate classifications
+1. ### Accurate classifications
    Our model should correctly predict whether an article’s metadata is complete, partially complete, or incomplete at least 85% of the time. It should also be especially reliable in spotting incomplete records, with precision and recall above 80%.
 
-2. ## Trustworthy completeness scores 
-   When we compare the system’s completeness scores to manual librarian checks, the difference should be very small — ideally less than 5%.
+2. ### Trustworthy completeness scores 
+   When we compare the system’s completeness scores to manual librarian checks, the difference should be very small ideally less than 5%.
 
-3. ## Noticeable improvement in records  
+3. ### Noticeable improvement in records  
    Within six months of putting the system into use, the number of articles with missing or incomplete metadata should drop by at least half in the journals we focus on.
 
-4. ## Smooth workflow integration  
+4. ### Smooth workflow integration  
    The tool should fit into the existing UNZA journal processes without slowing things down, allowing continuous checks without extra hassle.
 
-5. ## Positive user feedback  
+5. ### Positive user feedback  
    Librarians, editors, and contributors should find the tool easy to use and report that it saves them time and reduces the amount of manual fixing they have to do.
