@@ -26,19 +26,7 @@ Many articles published in UNZA journals have incomplete or inconsistent descrip
 
 -Metadata audits and contributor training are institutionalised in various departments
 
- ##### 1.3 Translating business objectives into data mining goals 
-To achieve the above business objectives, our project will focus on developing a robust classification model capable of automatically evaluating the completeness of descriptive metadata for articles in UNZA journals. Specifically:
-- Build a supervised classification model that categorizes articles into defined completeness levels — for example:
 
-  -Complete (all required metadata fields present),
-
-  -Partially Complete (some key fields missing),
-
-  -Incomplete (major fields missing).
-- Train and validate the model using historical article metadata records, where completeness has been manually assessed, ensuring the model can generalize to new, unseen records.
-- Leverage appropriate features from metadata fields such as title, author(s), publication date, keywords, abstract, DOI, and journal name to determine the completeness score/class.
-- Enable metadata quality insights by aggregating classification results to identify common gaps across journals, which will guide targeted improvements and policy enforcement.
-- Set measurable model performance targets — e.g., at least 85% classification accuracy for predicting completeness categories on test data.
 
 ### 1.4 Initial Project Success Criteria
 We’ll know our project is successful when we can clearly see improvements in both the quality of metadata and the ease of managing it. Specifically:
