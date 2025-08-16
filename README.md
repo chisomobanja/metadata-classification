@@ -52,7 +52,7 @@ We’ll know our project is successful when we can clearly see improvements in b
    When we compare the system’s completeness scores to manual librarian checks, the difference should be very small ideally less than 5%.
 
 3. ### Noticeable improvement in records  
-   Within six months of putting the system into use, the number of articles with missing or incomplete metadata should drop by at least half in the journals we focus on.
+   Within a period of time, the number of articles with missing or incomplete metadata should drop by at least half in the journals we focus on.
 
 4. ### Smooth workflow integration  
    The tool should fit into the existing UNZA journal processes without slowing things down, allowing continuous checks without extra hassle.
