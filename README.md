@@ -62,3 +62,33 @@ We’ll know our project is successful when we can clearly see improvements in b
 
 ### 1.5 Next Steps
 To move forward, we will begin by collecting and preparing metadata samples from existing UNZA journal articles. This includes labelling records for completeness and identifying key metadata fields. We will then design and test initial classification models, refining them based on performance metrics. Parallel to model development, we’ll engage stakeholders (librarians, editors, contributors) to ensure the solution aligns with their workflows and needs. Once validated, the tool will be piloted on select journals before broader deployment.
+## Data Understanding
+### 2. Intial Data Exploration 
+- commands used 
+    Below are the commands I used 
+    df.median 
+    df.mean 
+    df.duplicated().sum() 
+    df.dropna 
+    df.notnull().sum() 
+    df.notnull() 
+    df.isnull().mean()*100 
+    df.isnull().sum() 
+    df.describe 
+    df.dtypes 
+    df.shapedf.tail(4) 
+    df.shape
+
+#### below is the brief interpretation 
+### Exploratory Data Analysis Summary
+
+In exploring the dataset, I applied several Pandas commands to better understand its structure, quality, and key features.
+
+- I began by using `df.shape`, `df.head` and `df.tail(4)` to see the overall size of the dataset and preview the first and last few records. This helped confirm that the data was loaded correctly.  
+- The `df.dtypes` command revealed the data types of each column, while `df.describe()` provided summary statistics such as minimum, maximum, mean, and standard deviation for numerical fields. I also checked the central tendencies using `df.mean()` and `df.median()`.  
+- To assess data quality, I used `df.isnull().sum()` and `df.isnull().mean()*100` to identify missing values and calculate their percentage. The complementary command `df.notnull().sum()` helped confirm how much complete data was available, while `df.dropna()` showed the effect of removing missing records.  
+- I checked for duplicate entries with `df.duplicated().sum()`, which is important to avoid biased results during analysis.
+
+### Interpretation of Findings
+
+From these commands, I obtained a clearer picture of the dataset. The use of shape, data types, and descriptive statistics established the foundation of its structure. Missing value checks highlighted areas that might require cleaning or imputation, while duplicate detection ensured data consistency. Grouping and correlation analysis revealed patterns and potential associations between variables. Overall, this exploration step provided the necessary understanding of the dataset’s quality and characteristics before moving into more advanced analysis.
