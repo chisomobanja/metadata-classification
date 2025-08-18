@@ -84,10 +84,10 @@ To move forward, we will begin by collecting and preparing metadata samples from
 
 In exploring the dataset, I applied several Pandas commands to better understand its structure, quality, and key features.
 
-- I began by using `df.shape`, `df.head` and `df.tail(4)` to see the overall size of the dataset and preview the first and last few records. This helped confirm that the data was loaded correctly.  
-- The `df.dtypes` command revealed the data types of each column, while `df.describe()` provided summary statistics such as minimum, maximum, mean, and standard deviation for numerical fields. I also checked the central tendencies using `df.mean()` and `df.median()`.  
-- To assess data quality, I used `df.isnull().sum()` and `df.isnull().mean()*100` to identify missing values and calculate their percentage. The complementary command `df.notnull().sum()` helped confirm how much complete data was available, while `df.dropna()` showed the effect of removing missing records.  
-- I checked for duplicate entries with `df.duplicated().sum()`, which is important to avoid biased results during analysis.
+- I began by using df.shape, df.head and df.tail(4) to see the overall size of the dataset and preview the first and last few records. This helped confirm that the data was loaded correctly.  
+- The df.dtypes command revealed the data types of each column, while df.describe() provided summary statistics such as minimum, maximum, mean, and standard deviation for numerical fields. I also checked the central tendencies using df.mean() and df.median().  
+- To assess data quality, I used df.isnull().sum() and df.isnull().mean()*100 to identify missing values and calculate their percentage. The complementary command df.notnull().sum() helped confirm how much complete data was available, while df.dropna() showed the effect of removing missing records.  
+- I checked for duplicate entries with df.duplicated().sum(), which is important to avoid biased results during analysis.
 
 ### Interpretation of Findings
 
