@@ -92,3 +92,13 @@ In exploring the dataset, I applied several Pandas commands to better understand
 ### Interpretation of Findings
 
 From these commands, I obtained a clearer picture of the dataset. The use of shape, data types, and descriptive statistics established the foundation of its structure. Missing value checks highlighted areas that might require cleaning or imputation, while duplicate detection ensured data consistency. Grouping and correlation analysis revealed patterns and potential associations between variables. Overall, this exploration step provided the necessary understanding of the dataset’s quality and characteristics before moving into more advanced analysis.
+
+
+##Data Understanding Summary
+
+The dataset contains 1,977 records and 111 fields, primarily text-based metadata from UNZA’s institutional repository. Almost all columns (110) are unstructured text, while one is numeric. The metadata is inconsistent: some fields contain long descriptive text, while others hold only single terms (e.g., “Science”, “Lusaka”). Several key fields such as title, creator, subject, and type can be leveraged as classification features or target labels.
+
+Many columns are extremely sparse, for instance, Unnamed: 78 through Unnamed: 110 are almost empty with 1,976 missing values each. Certain fields contain frequent repetition of keywords (e.g., “Lusaka”, “teachers”), while others consist of completely unique entries (such as the combined metadata column). The dataset also includes noisy tokens (“however”, “therefore”) that don’t contribute structured meaning.
+
+Overall, challenges for metadata classification include missing values, sparse attributes, high cardinality in key fields, mixed vocabularies, and non-standard formatting. These issues will require normalization, stopword removal, and preprocessing to make the data suitable for modeling.
+
