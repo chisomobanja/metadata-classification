@@ -93,6 +93,8 @@ In exploring the dataset, I applied several Pandas commands to better understand
 
 From these commands, I obtained a clearer picture of the dataset. The use of shape, data types, and descriptive statistics established the foundation of its structure. Missing value checks highlighted areas that might require cleaning or imputation, while duplicate detection ensured data consistency. Grouping and correlation analysis revealed patterns and potential associations between variables. Overall, this exploration step provided the necessary understanding of the dataset’s quality and characteristics before moving into more advanced analysis.
 
+##Ploting categorial bar graph
+our data was most text do the suitable graph we could use was the categorial bar graph of different categories like creators, language used, type of journel, the subjects and so on and we used matlibplot to draw these graphs.
 
 ##Data Understanding Summary
 
