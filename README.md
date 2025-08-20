@@ -100,5 +100,19 @@ our data was most text do the suitable graph we could use was the categorial bar
 
 The dataset contains 1,977 records and 111 fields describing various academic works such as theses, dissertations, articles, and books. ach entry provides metadata that includes the title, author(s), date of publication, subject area, and type of material. The dataset spans multiple years, with the majority of entries concentrated in recent years, reflecting active academic output. The "type" field captures different categories, with theses and articles being the most common, while the "subject" field reveals a wide coverage of disciplines, including education, science, and social studies. The "date" field is consistently formatted as text but can be parsed into years for analysis. Missing values are present in some fields, such as abstracts and keywords, which may affect certain downstream tasks like classification or topic modeling. Almost all columns (110) are unstructured text, while one is numeric. The metadata is inconsistent: some fields contain long descriptive text, while others hold only single terms (e.g., “Science”, “Lusaka”). Several key fields such as title, creator, subject, and type can be leveraged as classification features or target labels.
 
+## Data Prepation
+
+### 3.2 Feature Engineering
+
+### Summary
+Through feature engineering, we:
+- Created *decade bins* from years to capture temporal trends.  
+- Measured *title* and *description lengths* as indicators of content detail.  
+- Simplified *language* into a binary variable (English vs. Others).  
+- Grouped `type` into *broader categories* (text, non-text, other).  
+- Added *keyword-based features* from the `subject` field.  
+
+These engineered features provide additional, more informative inputs that can improve model performance.
+
 
 
