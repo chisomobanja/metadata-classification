@@ -113,6 +113,8 @@ Through feature engineering, we:
 - Added *keyword-based features* from the `subject` field.  
 
 These engineered features provide additional, more informative inputs that can improve model performance.
+####3.3 Data Transformation
+-implement numeric scaling, categorical encoding, and TF-IDF vectorization
 
 
 
